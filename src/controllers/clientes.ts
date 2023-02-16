@@ -62,7 +62,6 @@ export const clienteGetById = async (req = request, res = response) => {
        cliente.dataValues.condpais=condpais; 
 
  }
-
       res.json(
           cliente, 
       );
